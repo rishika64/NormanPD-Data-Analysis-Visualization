@@ -19,7 +19,7 @@ pipenv run streamlit run src/app.py
 
 ## Video (Demo Walkthrough)
 
-[![Demo Video](https://youtu.be/OMv0h6U75HI)](https://youtu.be/OMv0h6U75HI)
+[![Demo Video](video/Thumbnail.png)](https://youtu.be/OMv0h6U75HI)
 
 ## How to test
 ```
