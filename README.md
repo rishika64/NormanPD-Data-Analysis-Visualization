@@ -21,6 +21,8 @@ pipenv run streamlit run src/app.py
 
 [![Demo Video](video/Thumbnail.png)](https://youtu.be/OMv0h6U75HI)
 
+Click on the video to be redirected or [go here](https://youtu.be/OMv0h6U75HI).
+
 ## How to test
 ```
 pipenv run python -m pytest 
