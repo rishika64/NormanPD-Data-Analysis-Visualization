@@ -1,9 +1,6 @@
-# cis6930fa24 -- Project 3
+# NormanPD Data Analysis & Visualization
 
-Name: Rishika Sharma
-UFID: 32772571
-
-# Assignment Description 
+# Description 
 
 The project aims to manage public safety by noting all the incidents in the area. The project takes the PDF files and extracts data from the coulmns which are not very uniform making it easy for someone to access the data more easily. This data is then fed to a SQLite database which makes query finding easy, so that arrests can be arranged or nested accordingly. This data is then displayed as an application using data-driven web-based tool **Streamlit** to analyze and visualize incident data from the Norman Police Department, Oklahoma. It enables users to extract, explore, and visualize insights from publicly available daily arrest summaries.
 
@@ -142,3 +139,4 @@ This regex is used to extract `Case Numbers`, which are 8-digit numeric strings
 - `pypdf` library uses certain internal features that have not been updated to be fully compatible with Python 3.12. For example, `Protocol` feature within `typing` library. Since `PyPDF2` is deprecated but still functional, it was chosen as a temporary solution to maintain PDF parsing functionality in Python 3.12 environments. 
 ```bash
 pip install PyPDF2
+
